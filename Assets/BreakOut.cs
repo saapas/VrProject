@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 public class BreakOut : MonoBehaviour
 {
     public InputActionReference inputAction;
-    private Vector3 position1 = new Vector3(30, 0, 0);
-    private Vector3 position2 = new Vector3(0, 2, 0);
+    private Vector3 position1 = new(0, 2, 0);
+    private Vector3 position2 = new(30, 2, 0);
     private bool isPosition1 = true;
 
     void Start()

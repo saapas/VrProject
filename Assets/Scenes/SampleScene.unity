@@ -484,7 +484,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7109253585701121838, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 359909016}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4214445573295357488, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1209446683}
+    - targetCorrespondingSourceObject: {fileID: 7109253585701121839, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2065790350}
   m_SourcePrefab: {fileID: 100100000, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
 --- !u!4 &260352922 stripped
 Transform:
@@ -1991,6 +1997,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092348711}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1209446680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4214445573295357488, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
+  m_PrefabInstance: {fileID: 218478823}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1209446683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209446680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19370fed1383a784ca1f365a534b2d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  magnifyingGlass: {fileID: 1547627886}
+  vrCamera: {fileID: 973131397}
+  magnifyingCamera: {fileID: 654678469}
 --- !u!1001 &1231564564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2496,6 +2522,11 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 780270278251679399, guid: 27024f5809f4a4347b9cd7f26a1bdf93, type: 3}
   m_PrefabInstance: {fileID: 1478762240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1547627886 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2869796502407761211, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
+  m_PrefabInstance: {fileID: 218478823}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1552248351
 PrefabInstance:
@@ -3827,6 +3858,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2065790347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7109253585701121839, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
+  m_PrefabInstance: {fileID: 218478823}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2065790350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065790347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19370fed1383a784ca1f365a534b2d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  magnifyingGlass: {fileID: 1547627886}
+  vrCamera: {fileID: 973131397}
+  magnifyingCamera: {fileID: 359909018}
 --- !u!1001 &2079327803
 PrefabInstance:
   m_ObjectHideFlags: 0
